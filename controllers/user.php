@@ -9,6 +9,7 @@ class JSON_API_User_Controller {
 	
   
     public function login() {
+    	//login de usuario
       global $json_api;
 	  $output = array();
 	  
