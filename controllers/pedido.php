@@ -4,7 +4,7 @@ Controller name: Pedido
 Controller description: Oh Garçom/IBTI Pedido 
 */
 	 
-
+//teste commit pelo Github
 class JSON_API_Pedido_Controller {
   	
 	public function create_pedido() {
