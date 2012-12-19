@@ -2,8 +2,7 @@
 /*
 Controller name: Opções
 Controller description: Oh Garçom/IBTI Opções 
-*/
-	 
+*/ 
 
 class JSON_API_Opcoes_Controller {
   	
@@ -12,11 +11,8 @@ class JSON_API_Opcoes_Controller {
 	 extract($json_api->query->get(array('')));
 	 
 	 $output = array();
-	 	 //teste ricardo
+	 	 
 	 return $output;
-	}
-	
-} 
-	
-
+	}	
+} 	
 ?>
