@@ -13,7 +13,6 @@ class JSON_API_Opcoes_Controller {
 	 $output = array();
 	 	 
 	 return $output;
-	 //teste
 	}	
 } 	
 ?>
