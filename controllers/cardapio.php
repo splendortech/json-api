@@ -12,7 +12,6 @@ class JSON_API_Cardapio_Controller {
 	 global $json_api;	  
 	 extract($json_api->query->get(array('')));
 	 $output = array();
-	 
 	 	 
 	 return $output;
 	}
