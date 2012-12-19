@@ -12,8 +12,6 @@ class JSON_API_Opcoes_Controller {
 	 extract($json_api->query->get(array('')));
 	 
 	 $output = array();
-	 
-	 //teste
 	 	 
 	 return $output;
 	}
