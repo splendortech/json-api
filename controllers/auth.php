@@ -19,7 +19,7 @@ class JSON_API_Auth_Controller {
 
 		return array(
 			"valid" => $valid
-		);
+		); 
 	}
 
 	public function generate_auth_cookie() {
