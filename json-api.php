@@ -13,7 +13,6 @@ $dir = json_api_dir();
 @include_once "$dir/singletons/query.php";
 @include_once "$dir/singletons/introspector.php";
 @include_once "$dir/singletons/pods.php";
-@include_once "$dir/singletons/tktdump.php";
 @include_once "$dir/singletons/response.php";
 @include_once "$dir/models/post.php";
 @include_once "$dir/models/comment.php";
