@@ -7,7 +7,7 @@ class JSON_API {
     $this->introspector = new JSON_API_Introspector();
     $this->response = new JSON_API_Response();
 	 $this->pods = new JSON_API_Pods();
-	 $this->tktdump = new JSON_API_Tktdump();
+	// $this->tktdump = new JSON_API_Tktdump();
 
     add_action('template_redirect', array(&$this, 'template_redirect'));
     add_action('admin_menu', array(&$this, 'admin_menu'));
