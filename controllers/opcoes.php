@@ -10,7 +10,6 @@ class JSON_API_Opcoes_Controller {
 	 global $json_api;	  
 	 extract($json_api->query->get(array('')));
 	 
-<<<<<<< HEAD
 	 	$opcoes = pods( 'opcoes');
 		$params = array(
 					'orderby' => 't.id DESC'
@@ -33,12 +32,7 @@ class JSON_API_Opcoes_Controller {
 					);
 		}
 	
-	 	return $output;
-=======
-	 $output = array();
-	 	 
 	 return $output;
->>>>>>> parent of 50fd9b9... Controller opcoes
 	}	
 } 	
 ?>
