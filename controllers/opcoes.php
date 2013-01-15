@@ -8,7 +8,7 @@ class JSON_API_Opcoes_Controller {
   	
 	public function get_lista_opcoes() {
 	 global $json_api;	  
-	 extract($json_api->query->get(array('')));
+	 extract($json_api->query->get(array('e')));
 	 
 	 	$opcoes = pods( 'opcoes');
 		$params = array(
