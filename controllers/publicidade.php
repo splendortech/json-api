@@ -8,7 +8,7 @@ class JSON_API_Publicidade_Controller {
   	
 	public function get_lista_publicidade() {
 	  global $json_api;	 
-	  extract($json_api->query->get(array('')));
+	  extract($json_api->query->get(array('e')));
 	  	 	  
 	  function get_img($id){ 		  
   	    $sql_img = "
