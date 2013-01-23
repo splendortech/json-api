@@ -75,14 +75,14 @@ class JSON_API_Cardapio_Controller {
 		global $json_api;
 		extract($json_api->query->get(array('e','c')));
 		
-	 	$params_itens = array('join'=>'RIGHT JOIN `wp_term_relationships` ON `wp_term_relationships`.`object_id` = t.id AND wp_term_relationships.term_taxonomy_id='.$c);
+	 	$params_itens = array('join'=>'INNER JOIN `wp_term_relationships` ON `wp_term_relationships`.`object_id` = t.id AND wp_term_relationships.term_taxonomy_id='.$c);
 		$itens= pods('itens');
 		$itens->find($params_itens);
 		
 		$params_cat = array('where'=>'term_taxonomy_id='.$c);
 		$categoria= pods('categorias_dos_itens');
 		$categoria->find($params_cat);
-		
+		$output=array();
 		
 		while ( $itens->fetch() ){
 			
